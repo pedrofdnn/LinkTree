@@ -7,6 +7,8 @@
 html {
     --bg-color: #edf2ff;
     --text-color: #00082f;
+    --prymary-color: #4253eb;
+    --primary-color-dark: #364fc7;
 }
 
 .container {
@@ -28,8 +30,20 @@ body {
 body.dark-blue {
     --bg-color: #00082f;
     --text-color: #ffffff;
-    --bt-color: #4861E5;
-    --hv-color: #394DC0;
+}
+
+body.pink {
+    --bg-color: #FfF0f6;
+    --text-color: #1f000b;
+    --prymary-color: #d6336c;
+    --prymary-color-dark: #a61e4d;
+}
+
+body.dark-pink {
+    --bg-color: #1f000b;
+    --text-color: #FfF0f6;
+    --prymary-color: #d6336c;
+    --prymary-color-dark: #a61e4d;
 }
 
 img.avatar {
@@ -37,7 +51,7 @@ img.avatar {
     width: 150px;
     height: 150px;
     padding: 4px;
-    border: var(--bt-color) solid 3.7px;
+    border: var(--prymary-color) solid 3.7px;
 }
 
 
@@ -64,19 +78,19 @@ ul li a {
     margin-bottom: 16px;
     border-radius: 6px;
     transition: background 400ms;
-    color: var(--text-color);
-    background-color: var(--bt-color);
+    color: white;
+    background: var(--prymary-color);
 
 }
 
 ul li a:hover {
-    background-color: var(--hv-color);
+    background: var(--prymary-color-dark);
 }
 
 footer {
     font-weight: 400px;
     font-size: 12px;
-    color: var(--text-color);
+    color: var(--text-color-dark);
     opacity: 0.6;
 }
 
