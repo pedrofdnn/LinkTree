@@ -1,2 +1,2 @@
 # LinkTree
- Projeto _de_Maratona_RocketSeat
+Link de acesso: https://pedrofdnn.github.io/LinkTree/
